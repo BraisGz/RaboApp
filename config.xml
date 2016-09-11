@@ -1,0 +1,9 @@
+<widget id="com.phonegapspain.miapp" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Team Rabolongo</name>
+    <description>
+       Aplicación oficial del Team Rabolongo
+    </description>
+    <author email="braisjorge@gmail.com" href="http://braisjorge.xyz">
+        El Capitán | Brais Jorge
+    </author>
+</widget>
