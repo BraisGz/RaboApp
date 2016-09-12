@@ -55,3 +55,6 @@ a {
 .menu a {
 	text-decoration: none;
 }
+.menu a:hover {
+	transform: scale(2);
+}
