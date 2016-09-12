@@ -31,18 +31,10 @@ a {
 		transform: translateX(15px);
 	}
 }
-@keyframes scan {
-	from {
-		transform: scale(0.9);
-	}
-	to {
-		transform: scale(0.8);
-	}
-}
 .logo {
-	width: 50%;
+	width: 80%;
 	margin: 0 auto;
-	margin-top: 65%;
+	margin-top: 50%;
 	}
 .logo img {
 	width: 100%;
@@ -51,6 +43,15 @@ a {
 	animation-direction: alternate;
 	animation-iteration-count: 999;
 }
-.logo:hover {
-	transform: scale(1.5);
+.menu {
+	width: 100%;
+	position: absolute;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	padding: 1rem;
+}
+.menu img {
+	width:21%;
+	display: inline;
 }
