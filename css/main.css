@@ -1,7 +1,9 @@
 body {
 	background-image: url(back.jpg);
 	background-size: 100% 200%;
-	background-repeat:no-repeat; 
+	background-repeat:no-repeat;
+	animation-name:fade;
+	animation-duration: 2s;
 }
 a {
     -webkit-touch-callout: none;
@@ -31,6 +33,14 @@ a {
 		transform: translateX(15px);
 	}
 }
+@keyframes fade {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
 .logo {
 	width: 80%;
 	margin: 0 auto;
@@ -57,4 +67,29 @@ a {
 }
 .menu a:hover {
 	transform: scale(2);
+}
+.miembros {
+	width: 100%;
+	text-align: center;
+	position:relative;
+	top:3em;
+}
+.miembros-linea1 {
+	width: 100%;
+	float: left;
+}
+.miembros-linea1 img {
+	width: 35%;
+	margin: 1em;
+}
+.miembros-linea2 {
+	width: 100%;
+	float: left;
+}
+.miembros-linea2 img {
+	width: 35%;
+	margin: 1em;
+}
+.miembros a {
+	text-decoration: none;
 }
