@@ -75,8 +75,7 @@ a {
 	top:3em;
 }
 .miembros-linea1 {
-	width: 100%;
-	float: left;
+	width: 100%;	
 }
 .miembros-linea1 img {
 	width: 35%;
@@ -84,7 +83,6 @@ a {
 }
 .miembros-linea2 {
 	width: 100%;
-	float: left;
 }
 .miembros-linea2 img {
 	width: 35%;
